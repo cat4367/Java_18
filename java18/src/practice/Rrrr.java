@@ -4,14 +4,15 @@ public class Rrrr {
 
 	public static void main(String[] args) {
 		
-		int ab = 0;
+		StringBuilder builder = new StringBuilder("Java");
+		change(builder);
+		System.out.println(builder);
 		
 }
-	public int solution(int num1, int num2) {
+	static void change(StringBuilder builder) {
+		builder.append("21");
+		builder = new StringBuilder("Python");
 		
-		int answer = 0;
-		answer = num1 - num2;
-		return answer;
-	}
+		}
 	
 }
