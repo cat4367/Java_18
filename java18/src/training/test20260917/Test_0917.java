@@ -40,4 +40,5 @@ public class Test_0917 {
 		pr.println(5.7);
 		pr.println("ȫ�浿");
 	}
+	
 }
